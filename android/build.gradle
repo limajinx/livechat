@@ -24,7 +24,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 34
-
+    namespace = "tech.mastersam.livechat"
+    
     defaultConfig {
         minSdkVersion 21
     }
